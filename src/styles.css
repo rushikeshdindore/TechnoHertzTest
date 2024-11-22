@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+/* h2{
+    color: palevioletred;
+    text-indent: 100px;
+    /* text-shadow: 10px 20px 2px black; 
+    background-color: azure;
+} */
+ @import "~bootstrap/dist/css/bootstrap.css"
+ 

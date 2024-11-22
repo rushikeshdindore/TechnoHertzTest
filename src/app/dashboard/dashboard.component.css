@@ -1,0 +1,182 @@
+.dashboard-container {
+  display: flex;
+  background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.logo {
+    max-width: 200px;
+    margin-bottom: 0rem;
+  }
+
+.sidebar {
+  width: 250px;
+  background-color: #f3f4f6;
+  padding: 15px;
+}
+
+.sidebar .logo h3 {
+  margin-bottom: 20px;
+}
+
+.sidebar .menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar .menu li {
+  margin: 10px 0;
+}
+
+.sidebar .menu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+  .notification-bar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+  }
+
+  .bell-container {
+    position: relative;
+  }
+
+  .bell-icon {
+    width: 20px;
+    height: 20px;
+    color: #4B5563;
+  }
+
+  .notification-dot {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 8px;
+    height: 8px;
+    background-color: #EF4444;
+    border-radius: 50%;
+  }
+
+  .profile-section {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #E5E7EB;
+    overflow: hidden;
+  }
+
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .user-info {
+    padding-right: 8px;
+  }
+
+  .user-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #111827;
+  }
+
+  .user-role {
+    margin: 0;
+    font-size: 12px;
+    color: #6B7280;
+  }
+
+  .dropdown-button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    color: #4B5563;
+  }
+
+  .dropdown-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .search-bar {
+  width: 200px;
+  padding: 5px;
+}
+.search-container {
+  position: relative;
+  width: 250px; /* You can adjust this width */
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px 30px 10px 10px; /* Add padding to the left to make space for the logo */
+  border: 1px solid #ccc;
+  border-radius: 10px; /* For rounded corners */
+  font-size: 16px;
+}
+
+.search-container::before {
+  content: '\f002'; /* Unicode for FontAwesome search icon */
+  font-family: 'FontAwesome';
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #888; /* Icon color */
+}
+
+
+.cards-section, .activities-section, .chart-section {
+  margin-top: 20px;
+}
+
+.cards, .activities {
+  display: flex;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.card, .activity {
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 7px;
+}
+
+.chart {
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 250px;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,220 @@
+<div class="container">
+    <div class="header">
+      <h5>Valid Agreements</h5>
+    </div>
+  
+    <!-- Search Form -->
+    <div class="search-form">
+      <form>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="agreementNumber">Agreement Number</label>
+            <input type="text" id="agreementNumber" placeholder="Type here" />
+          </div>
+          <div class="form-group">
+            <label for="nature">Nature</label>
+            <select id="nature">
+              <option>Select</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="stage">Stage</label>
+            <select id="stage">
+              <option>Select</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="type">Type</label>
+            <select id="type">
+              <option>Select</option>
+            </select>
+          </div>
+        </div>
+  
+        <div class="form-row">
+          <div class="form-group">
+            <label for="agreementName">Agreement Name</label>
+            <input type="text" id="agreementName" placeholder="Type here" />
+          </div>
+          <div class="form-group">
+            <label for="year">Year</label>
+            <select id="year">
+              <option>Select</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="partyName">Party Name</label>
+            <input type="text" id="partyName" placeholder="Type here" />
+          </div>
+          <div class="form-group">
+            <label for="company">Company</label>
+            <select id="company">
+              <option>Select</option>
+            </select>
+          </div>
+        </div>
+  
+        <div class="form-row">
+          <div class="form-group">
+            <label for="validFrom">Valid From</label>
+            <input type="date" id="validFrom" />
+          </div>
+          <div class="form-group">
+            <label for="validTo">Valid To</label>
+            <input type="date" id="validTo" />
+          </div>
+          <div class="form-group">
+            <label for="originals">Originals</label>
+            <select id="originals">
+              <option>Select</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="storageLocation">Storage / Location</label>
+            <select id="storageLocation">
+              <option>Select</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="brand">Brand</label>
+            <select id="brand">
+              <option>Select</option>
+            </select>
+          </div>
+        </div>
+  
+        <button type="button" class="search-button">Search</button>
+      </form>
+    </div>
+    <div class="search-container">
+      <!-- Search input -->
+      <div class="search-box">
+        <input type="search" placeholder="Search">
+      </div>
+    
+      <!-- Entries per page dropdown -->
+      <div class="entries-selector">
+        Show
+        <select>
+          <option>25</option>
+          <option>50</option>
+          <option>75</option>
+          <option>100</option>
+        </select>
+        of 100 entries
+      </div>
+    
+      <!-- Pagination -->
+      <div class="pagination">
+        <span>1 of 1</span>
+        <button disabled>&lt;</button>
+        <button disabled>&gt;</button>
+      </div>
+    </div>
+  
+    <!-- Data Table -->
+    <div class="data-table">
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Select</th> <!-- Checkbox Column -->
+            <th>Number</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Stage</th>
+            <th>Nature</th>
+            <th>Party Name</th>
+            <th>Year</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Originals</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="checkbox" /></td> <!-- Checkbox for each row -->
+            <td>GC267</td>
+            <td>Sales Agreement</td>
+            <td>Group Companies</td>
+            <td>Master</td>
+            <td>Supply Agreement</td>
+            <td>Skoda Auto AS</td>
+            <td>2023</td>
+            <td>20/12/2023</td>
+            <td>31/12/2023</td>
+            <td>Yes</td>
+            <td>Published</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td>GC268</td>
+            <td>Sales Agreement</td>
+            <td>Group Companies</td>
+            <td>Master</td>
+            <td>Supply Agreement</td>
+            <td>Skoda Auto AS</td>
+            <td>2023</td>
+            <td>21/12/2023</td>
+            <td>31/12/2023</td>
+            <td>No</td>
+            <td>Draft</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td>GC268</td>
+            <td>Sales Agreement</td>
+            <td>Group Companies</td>
+            <td>Master</td>
+            <td>Supply Agreement</td>
+            <td>Skoda Auto AS</td>
+            <td>2023</td>
+            <td>21/12/2023</td>
+            <td>31/12/2023</td>
+            <td>No</td>
+            <td>Draft</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td>GC268</td>
+            <td>Sales Agreement</td>
+            <td>Group Companies</td>
+            <td>Master</td>
+            <td>Supply Agreement</td>
+            <td>Skoda Auto AS</td>
+            <td>2023</td>
+            <td>21/12/2023</td>
+            <td>31/12/2023</td>
+            <td>No</td>
+            <td>Draft</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td>GC268</td>
+            <td>Sales Agreement</td>
+            <td>Group Companies</td>
+            <td>Master</td>
+            <td>Supply Agreement</td>
+            <td>Skoda Auto AS</td>
+            <td>2023</td>
+            <td>21/12/2023</td>
+            <td>31/12/2023</td>
+            <td>No</td>
+            <td>Draft</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="pagination-wrapper">
+        <div class="page-display">
+          <span>1</span>
+          <span>of</span>
+          <span>2</span>
+        </div>
+        <div class="navigation-buttons">
+          <button class="nav-btn" disabled>&lt;</button>
+          <button class="nav-btn">&gt;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
